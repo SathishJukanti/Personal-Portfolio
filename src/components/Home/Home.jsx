@@ -13,11 +13,11 @@ function Home() {
   return (
     <>
       <div 
-      className='w-full min-h-screen'>
+      className='w-full md:min-h-screen h-[600px]'>
         <div 
         className='bg-slate-700'>
           <div 
-          className='min-h-screen w-full flex justify-center items-center'>
+          className='md:min-h-screen w-full h-[600px] flex justify-center items-center'>
             <div 
             className='md:min-h-[300px] md:min-w-[800px] min-h-[500px] w-[250px]'>
               <div 
