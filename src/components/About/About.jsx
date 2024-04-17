@@ -23,7 +23,7 @@ function About() {
             <div 
             className=' md:w-[400px] w-[250px] overflow-hidden '>
               <img 
-              className='shadow-xl rounded-2xl md:rounded-full border-2 border-white ' 
+              className='shadow-xl rounded-full md:rounded-full border-2 border-white ' 
               src={image} alt="" />
             </div>
             <div 
@@ -42,7 +42,7 @@ function About() {
                   className='border-b-2 border-black py-1'>Tech Stack
                   </span> 
                     <div 
-                    className='flex gap-6 py-2'>
+                    className='flex md:gap-6 gap-4 py-2'>
                       <FaHtml5 /> 
                       <FaCss3Alt />
                       <IoLogoJavascript />
@@ -57,7 +57,7 @@ function About() {
                   className='border-b-2 border-black py-1'>Explore
                   </span>  
                   <div
-                  className='flex gap-8 py-2 '>
+                  className='flex gap-6 py-2 '>
                     <Link to="https://www.linkedin.com/in/sathish-jukanti-52a822210/">
                       <FaLinkedin /> 
                     </Link>

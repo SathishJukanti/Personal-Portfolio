@@ -31,7 +31,7 @@ function Home() {
                 <div 
                 className='md:w-[400px] w-[250px] mt-12 backdrop-blur-sm md:backdrop:blur-none '>
                   <h1
-                  className='text-4xl text-[#149EA5] font-serif text-center font-bold pt-2 '
+                  className='md:text-4xl text-2xl text-[#149EA5] font-serif text-center font-bold pt-2 '
                   >Front-End React <br /> Developer</h1>
                   
                   <p

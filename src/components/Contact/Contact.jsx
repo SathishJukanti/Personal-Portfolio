@@ -19,7 +19,7 @@ function Contact() {
             <div 
             className='md:h-[40px] md:w-[170px] w-[170px] flex border-b border-white md:ml-28 ml-16'>
               <h1 
-              className='text-center md:ml-0 text-white text-3xl font-bold font-serif grid tracking-[.08em]'>CONTACT</h1>
+              className='text-center text-white text-3xl font-bold font-serif grid tracking-[.08em]'>CONTACT</h1>
             </div>
             <div>
               <p 
