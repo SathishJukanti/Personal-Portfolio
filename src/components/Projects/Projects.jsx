@@ -10,45 +10,49 @@ function Projects() {
     <div 
     className='min-h-screen w-full'>
       <div 
-      className='min-h-screen w-full bg-slate-700 flex justify-center items-center'>
-        <div 
-        className='md:w-[900px] w-[300px] flex flex-wrap justify-center overflow-hidden'>
+      className='min-h-screen w-full bg-slate-700  flex flex-wrap justify-center items-center'>
+        <h1
+        className='text-3xl text-white mt-12 mb-12 border-b-2 font-bold font-serif grid tracking-[.08em]'
+        >Projects
+        </h1>
+        <div
+        className='min-h-screen w-full flex flex-wrap justify-center items-center'
+        >
           <div 
-          className=' overflow-hidden'>
-                <img className='md:h-[300px] rounded-lg hover:scale-110 hover:duration-500 duration-700 overflow-hidden' src={ReactRouter} alt="" />
-          </div>
-          <div 
-          className='w-[300px] h-[300px] md:w-[400px] md:mt-4 mt-8'>
-            <h1 
-            className='text-2xl font-bold font-serif text-center text-[#149EA5]'>React Router</h1>
-
-            <h3 
-            className='text-md font-serif text-slate-300 md:ml-8 mt-4'>React Router is a declarative, component-based, client and server-side routing library. When a user clicks a link, React Router updates the URL and renders the corresponding component without a full page reload.</h3>
-
+          className='md:w-[900px] w-[300px] flex flex-wrap justify-center overflow-hidden'>
             <div 
-            className='flex md:flex-wrap gap-8 text-white md:px-16 md:py-6 mt-4 ml-6'>
-              <Link
-              to='https://github.com/SathishJukanti/React-Projects/tree/main/05ReactRouter'
-              >
-                <Button title='GitHub'/>
-              </Link>
-              <Button 
-              title='Live'/>
+            className=' overflow-hidden'>
+                <img className='md:h-[300px] rounded-lg hover:scale-110 hover:duration-500 duration-700 overflow-hidden' src={ReactRouter} alt="" />
             </div>
+
+          <div 
+            className='w-[300px] h-[300px] md:w-[400px] md:mt-4 mt-8'>
+              <h1 
+              className='text-2xl font-bold font-serif text-center text-[#149EA5]'>React Router</h1>
+              <h3 
+              className='text-md font-serif text-slate-300 md:ml-8 mt-4 text-balance'>React Router simplifies client-side routing by updating the URL and rendering components without full page reloads.</h3>
+              <div 
+              className='flex md:flex-wrap gap-8 text-white md:px-16 md:py-6 mt-4 ml-6'>
+                <Link
+                to='https://github.com/SathishJukanti/React-Projects/tree/main/05ReactRouter'
+                >
+                  <Button title='GitHub'/>
+                </Link>
+                <Button 
+                title='Live'/>
+              </div>
           </div>
           <div 
           className=' overflow-hidden'>
-                <img className='md:h-[300px] w-[487px] rounded-lg hover:scale-110 hover:duration-500 duration-700 overflow-hidden' src={MegaBlog} alt="" />
+            <img className='md:h-[300px] w-[487px] rounded-lg hover:scale-110 hover:duration-500 duration-700 overflow-hidden' src={MegaBlog} alt="" />
           </div>
           <div 
           className='w-[300px] h-[300px] md:w-[400px] md:mt-4 mt-8'>
             <h1 
             className='text-2xl font-bold font-serif text-center text-[#149EA5]'>Mega Blog Website</h1>
-
             <h3 
             className='text-md font-serif text-slate-300 md:ml-8 mt-4'>My Blog Post project is a web application that allows users to read and publish blog articles.
-            </h3>
-          
+            </h3>       
             <div 
             className='flex md:flex-wrap gap-8 text-white md:px-16 md:py-6 mt-4 ml-6'>
               <Link
@@ -62,16 +66,14 @@ function Projects() {
           </div>
           <div 
           className=' overflow-hidden'>
-                <img className='md:h-[300px] w-[487px] rounded-lg hover:scale-110 hover:duration-500 duration-700 overflow-hidden' src={CurrencyConverter} alt="" />
+            <img className='md:h-[300px] w-[487px] rounded-lg hover:scale-110 hover:duration-500 duration-700 overflow-hidden' src={CurrencyConverter} alt="" />
           </div>
           <div 
           className='w-[300px] h-[300px] md:w-[400px] md:mt-4 mt-8'>
             <h1 
             className='text-2xl font-bold font-serif text-center text-[#149EA5]'>Currency Converter</h1>
-
             <h3 
             className='text-md font-serif text-slate-300 md:ml-8 mt-4'>A currency converter is a website that provides for the easy conversion of currency values based on present-day exchange rates.</h3>
-
             <div 
             className='flex md:flex-wrap gap-8 text-white md:px-16 md:py-6 mt-4 ml-6'>
               <Link
@@ -81,6 +83,7 @@ function Projects() {
               </Link> 
               <Button title='Live'/>
             </div>
+          </div>
           </div>
         </div>
       </div>
