@@ -51,7 +51,7 @@ function Projects() {
             <h1 
             className='text-2xl font-bold font-serif text-center text-[#149EA5]'>Mega Blog Website</h1>
             <h3 
-            className='text-md font-serif text-slate-300 md:ml-8 mt-4'>My Blog Post project is a web application that allows users to read and publish blog articles.
+            className='text-md text-center font-serif text-slate-300 md:ml-8 mt-4'>My Blog Post project is a web application that allows users to read and publish blog articles.
             </h3>       
             <div 
             className='flex md:flex-wrap gap-8 text-white md:px-16 md:py-6 mt-4 ml-6'>
@@ -73,7 +73,7 @@ function Projects() {
             <h1 
             className='text-2xl font-bold font-serif text-center text-[#149EA5]'>Currency Converter</h1>
             <h3 
-            className='text-md font-serif text-slate-300 md:ml-8 mt-4'>A currency converter is a website that provides for the easy conversion of currency values based on present-day exchange rates.</h3>
+            className='text-md text-center font-serif text-slate-300 md:ml-8 mt-4'>A currency converter is a website that provides for the easy conversion of currency values based on present-day exchange rates.</h3>
             <div 
             className='flex md:flex-wrap gap-8 text-white md:px-16 md:py-6 mt-4 ml-6'>
               <Link
