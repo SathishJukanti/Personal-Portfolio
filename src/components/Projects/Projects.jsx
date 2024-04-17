@@ -30,7 +30,7 @@ function Projects() {
               <h1 
               className='text-2xl font-bold font-serif text-center text-[#149EA5]'>React Router</h1>
               <h3 
-              className='text-md font-serif text-slate-300 md:ml-8 mt-4 text-balance'>React Router simplifies client-side routing by updating the URL and rendering components without full page reloads.</h3>
+              className='text-md text-center font-serif text-slate-300 md:ml-8 mt-4 text-balance'>React Router simplifies client-side routing by updating the URL and rendering components without full page reloads.</h3>
               <div 
               className='flex md:flex-wrap gap-8 text-white md:px-16 md:py-6 mt-4 ml-6'>
                 <Link
