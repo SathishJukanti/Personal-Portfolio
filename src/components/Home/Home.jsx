@@ -23,15 +23,15 @@ function Home() {
               <div 
               className='grid md:grid-cols-2 flex-row-reverse md:backdrop-blur-sm '>
                 <div 
-                className='md:w-[400px] w-[250px] min-h-full overflow-hidden mt-16'>
+                className='md:w-[400px] w-[250px] overflow-hidden mt-16'>
                   <img 
                   className=' rounded-xl shadow-xl-white hover:scale-110 hover:duration-500 duration-700 '
                   src="https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                 </div>
                 <div 
-                className='md:w-[400px] w-[250px] mt-12 backdrop-blur-sm md:backdrop:blur-none '>
+                className='md:w-[400px] w-[250px] backdrop-blur-sm md:backdrop:blur-none'>
                   <h1
-                  className='md:text-4xl text-2xl text-[#149EA5] font-serif text-center font-bold pt-2 '
+                  className='md:text-4xl text-2xl text-[#149EA5] font-serif text-center font-bold pt-2 md:mt-28 mt-8'
                   >Front-End React <br /> Developer</h1>
                   
                   <p

@@ -2,11 +2,17 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { IoMenu } from "react-icons/io5";
 import SathishJukanti from './SathishJukanti.png'
+import { useState } from 'react';
 
 
 
 
 function Header() {
+
+    const [options, setOptions] = useState(false)
+
+    
+
   return (
     <header 
     className='sticky shadow z-50 top-0'>
@@ -19,12 +25,85 @@ function Header() {
                 className='flex items-center'>
                     <img
                     src={SathishJukanti}
-                    className='mr-3 h-12'
+                    className='mr-3 h-12 '
                     alt='logo'
                     />
                 </Link>
-                <div>
-                    <IoMenu className='md:hidden block h-[25px] w-[25px]'/>
+                <div className='relative'>
+                    <div
+                    className='  md:hidden'
+                    onClick={() => setOptions(!options)}
+                    >
+                    <IoMenu className='text-2xl ml-12 mr-2'/>
+                    {
+                      options && <div className='absolute bg-transparant text-white justify-between w-full md:flex md:w-auto md:order-1 '
+                      id='mobile-menu-2'>
+                        <ul className='flex flex-col mt-6 font-medium md:flex-row items-center gap-1 rounded-md border-solid border-2 border-slate-500  md:space-x-8 md:mt-0 '>
+                            <li>
+                                <NavLink
+                                to='/home'
+                                className='text-[#149EA5] hover:text-white'>
+                                    Home
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to='/about'
+                                className='text-[#149EA5] hover:text-white'>
+                                    About
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to='/projects'
+                                className='text-[#149EA5] hover:text-white'>
+                                    Projects
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to='/contact'
+                                className='text-[#149EA5] hover:text-white'>
+                                    Contact
+                                </NavLink>
+                            </li>
+                        </ul>
+                      </div>
+                    }   
+                    </div> 
+                {/*   <IoMenu className='md:hidden block h-[25px] w-[25px] relative'
+                    onClick={() => setOptions(!options)}
+                    />   
+                    {
+                        options && <div 
+                        className='justify-between items-center w-full md:flex md:w-auto md:order-1'
+                        id='mobile-menu-2 absolute '>
+                            <ul
+                            className='flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0'>
+                            <li>
+                            <NavLink
+                            to='/about'
+                            className='text-gray-500 hover:text-gray-700'>
+                                About
+                            </NavLink>
+                            </li>
+                            <li>
+                            <NavLink
+                            to='/projects'
+                            className='text-gray-500 hover:text-gray-700'>
+                                Projects
+                            </NavLink>
+                            </li>
+                            <li>
+                            <NavLink
+                            to='/contact'
+                            className='text-gray-500 hover:text-gray-700'>
+                                Contact
+                            </NavLink>
+                            </li>
+                        </ul> 
+                        </div>
+                    }    */}
                     <div 
                     className='hidden justify-between items-center w-full md:flex md:w-auto md:order-1'
                     id='mobile-menu-2'>
@@ -81,3 +160,4 @@ function Header() {
 }
 
 export default Header
+
