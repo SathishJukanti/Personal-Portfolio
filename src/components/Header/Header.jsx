@@ -41,7 +41,7 @@ function Header() {
                         <ul className='flex flex-col mt-6 font-medium md:flex-row items-center gap-1 rounded-md border-solid border-2 border-slate-500  md:space-x-8 md:mt-0 '>
                             <li>
                                 <NavLink
-                                to='/home'
+                                to='/'
                                 className='text-[#149EA5] hover:text-white'>
                                     Home
                                 </NavLink>
