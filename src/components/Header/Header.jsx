@@ -71,39 +71,6 @@ function Header() {
                       </div>
                     }   
                     </div> 
-                {/*   <IoMenu className='md:hidden block h-[25px] w-[25px] relative'
-                    onClick={() => setOptions(!options)}
-                    />   
-                    {
-                        options && <div 
-                        className='justify-between items-center w-full md:flex md:w-auto md:order-1'
-                        id='mobile-menu-2 absolute '>
-                            <ul
-                            className='flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0'>
-                            <li>
-                            <NavLink
-                            to='/about'
-                            className='text-gray-500 hover:text-gray-700'>
-                                About
-                            </NavLink>
-                            </li>
-                            <li>
-                            <NavLink
-                            to='/projects'
-                            className='text-gray-500 hover:text-gray-700'>
-                                Projects
-                            </NavLink>
-                            </li>
-                            <li>
-                            <NavLink
-                            to='/contact'
-                            className='text-gray-500 hover:text-gray-700'>
-                                Contact
-                            </NavLink>
-                            </li>
-                        </ul> 
-                        </div>
-                    }    */}
                     <div 
                     className='hidden justify-between items-center w-full md:flex md:w-auto md:order-1'
                     id='mobile-menu-2'>
